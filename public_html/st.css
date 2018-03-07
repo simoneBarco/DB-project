@@ -1,0 +1,174 @@
+html, body {
+	margin:0; 
+	padding:0;
+	background-color:#FFFFFF;
+	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size:0.975em;
+}
+
+#testata {
+	background-color:#003399;
+	color: white;
+}
+
+#logo img, #logo a{
+	width:20%;
+	border:0;
+	float:left;
+	padding-left:5%;
+	padding-top:1%;
+}
+
+h2 {
+	margin:0;
+	padding-top:3%;
+	padding-bottom:3%;
+	padding-right:15%;
+	text-align:center;
+}
+#nav {
+	float: left;
+	width: 19%;
+}
+#nav ul {
+	clear:both;
+	margin:0;
+	background-color:#0033CC;
+	padding-top:0.5em;
+	padding-bottom:0.5em;
+}
+
+#nav li {
+	list-style-type:none;
+	/*display:inline;*/
+	margin:0;
+	font-size:1.5em;
+	padding-bottom: 0.5em;
+	padding-right:0em;
+	padding-left: 0em;
+	color:white;
+	font-weight:bold;
+	text-transform:none;
+}
+
+#nav li a {
+	text-decoration:none;
+	color:white;
+}
+
+#corpo {
+	width: auto;
+	margin-left:20%;
+	margin-right:15%;
+	margin-top: 0.8em;
+}
+
+#corpo p {
+	font-size: 1.2em;
+	text-align:left;
+	line-height:150%;
+}
+#corpo a {
+	text-align:left;
+	line-height:150%;
+	font-size: 1em;
+}
+.pcent {
+	padding-left: 1em;
+	text-align:center;
+	line-height:150%;
+}
+
+table {
+	border-width:1px;
+	border-style:solid;
+	border-color:black;
+	border-collapse:collapse;
+}
+
+th, td{
+	border-width:1px;
+	border-style:solid;
+	border-color:black;
+	/*border-collapse:collapse;*/
+	padding-left:0.3em;
+	padding-right:0.3em;
+	padding-top:0.3em;
+	padding-bottom:0.3em;
+	text-align:center;
+}
+
+
+th {
+	font-size:1.1em;
+	background-color:#0033CC;
+	color:white;
+}
+
+.tabcent table {
+	text-align:center;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+iframe {
+	float: left;
+}
+
+.cont {
+	margin:1%;
+}
+	
+.cont p {
+	text-align:left;
+}
+
+.contpar {
+	clear:both;
+	text-align:left;
+}
+
+.corpolog {
+	margin:1%;
+}
+
+form fieldset{
+	width: 0;
+	margin-bottom: 0.8em;
+}
+
+
+.item, .button {
+	background-color:white;
+}
+
+#gestnav ul {
+	margin:0;
+	margin-left: 15em;
+	background-color: #0033FF;
+	padding-left: 6em;
+	padding-top:0.3em;
+	padding-bottom:0.3em;
+}
+
+#gestnav li {
+	list-style-type:none;
+	display:inline;
+	margin:0;
+	font-size:1em;
+	font-weight:bold;
+	padding-right:2em;
+	text-transform:none;
+	color: white;
+}
+
+#gestnav li a {
+	text-decoration:none;
+	color:white;
+}
+
+.tablong table {
+	padding-left:0.5em;
+	padding-right:3em;
+	width:70%;
+}
